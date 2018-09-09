@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+  <!-- <span id="count">not received</span>-->
+   <p>LED SWITCH</p>
+   <script src="https://static.robotwebtools.org/EventEmitter2/current/eventemitter2.min.js"></script>
+   <script src="https://static.robotwebtools.org/roslibjs/current/roslib.min.js"></script>
+  <script src="./main.js"></script>
+  <p>
+  <input type="button" value="LED1" onclick="LED_ON(1);"/>
+  <input type="button" value="LED2" onclick="LED_ON(2);"/>
+  <input type="button" value="LED3" onclick="LED_ON(3);"/>
+  </p>
+  <input type="button" value="LED OFF" onclick="LED_OFF();"/>
+  </body>
+</html>
